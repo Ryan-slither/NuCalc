@@ -5,7 +5,7 @@ wxIMPLEMENT_APP(App);
 
 bool App::OnInit()
 {
-    wxString name = "Big Calculator Time";
+    wxString name = "NuCalc";
     MainFrame* mainFrame = new MainFrame(name);
     mainFrame->SetClientSize(400, 600);
     mainFrame->Center();
